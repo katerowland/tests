@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            
+            <link rel="stylesheet"href="simmy.css">
+        <title>simmy.ng</title>
+         <h1 style="font-size: 45px;" id="back"><header>SIMMY.COM</header></h1>
+        <style>
+                form {
+                        color: black;
+                }
+                * {
+                        box-sizing: border-box;
+                }
+                /* Add padding to containers */
+                .container {
+                        padding: 16px;
+                        background-color: lightgray;
+
+                }
+                /* Full-width input fields */
+                input [type=text],
+                input[type=password] {
+                        width: 100px;
+                        padding: 15px;
+                        margin: 5px 0 22px 0;
+                        display: inline-block;
+                        border: none;
+                        background: #f1f1f1;
+                }
+                input[type=text]:focus,
+                input[type=passord]:focus {
+                        background-color: #add;
+                        outline: none;
+                }
+                /* Overwrite defult style of hr */
+                hr {
+                        border: 1px solid #f1f1f1;
+                        margin-bottom: 25px;
+                }
+                /* Set a style for the submit button */
+                
+                .signbtn {
+                        background-color: blue;
+                        color: white;
+                        padding: 16px 20px;
+                        margin: 8px 0;
+                        border: none;
+                        cursor: pointer;
+                        width: 100px;
+                        opacity: o.9;
+                }
+               .cancelbtn {
+                        background-color: red;
+                        color: white;
+                        padding: 16px 20px;
+                        margin: 8px 0;
+                        border: none;
+                        cursor: pointer;
+                        width: 100px;
+                        opacity: o.9;
+                }
+                /* Add a blue text color to links */
+                a {
+                        color: dodgerblue;
+                }
+                /* set a grey background color and center the text of the "signin" section*/
+                .signin {
+                        background-color: #f1f1f1
+                       
+                }
+               
+               
+                #big {
+                        background-color:lightgrey;
+                        color: black;
+                }
+
+        </style>
+        
+    </head>
+    <body>
+            <li class="menu">
+                    <li class="text-decoration">
+                <a href="home.html"><img src="mypixx\home.jpeg" style="width: 25px;height:25px"><i class="fa fa-Home">HOME	|</a>
+                            <a href="about.html"><img src="mypixx\about.jpeg" style="width: 25px;height:25px"><i class="fa fa-about">ABOUT US	|</a>
+                            <a href="contact.html"><img src="mypixx\download (6).jpeg" style="width: 25px;height:25px"><i class="fa fa-contact">CONTACT US	|</a>
+                        
+                </li>
+                    
+                
+                           
+                 <form>
+                        <div class="container">
+                                        <h1 id="big"><u> create your Simdoc account</u></h1>
+                                <p>Register</p>
+                                <hr>
+		<form>
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname">
+</form>
+                     <form>
+			Please click on your gender<br>
+			Male<input type="radio" name="gender" value="male"> <br>
+			Female<input type="radio" name="gender" value="male"><br>
+			Other<input type="radio" name="gender" value="male"><br>
+			<label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="nigeria">Nigeria</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select><br>
+
+		</form>
+                                <label for="email">
+                                        <b>Email</b>
+                                </label>
+                                <input type="text" placeholder="Enter Email" name="email" required>
+                                <label for="psw">
+                                        <b>password</b>
+                                </label>
+                                <input type="password" placeholder=" Password" name="psw" required>
+                                        <label for="psw-repeat">
+                                                <b>Repeat password</b>
+                                        </label>
+                                        <input type="Repeat passwoed" placeholder="Repeat password" name="psw-repeat" required>
+                                        <hr>
+                                        <label>
+                                                <input type="checkbox" checked="checked" name="remember" style="margin-bottom: 15px">
+                                                Remember me
+                                        </label>
+                               
+                                <div class="container signin">
+                                        <p>Already have an account?<a href="#">Sign in</a></p>
+                                        <div class="clearfix">
+                                                
+                                                <button type="submit" class="signbtn">sign up</button>
+                                                <button type="button" class="cancelbtn">cancel</button>
+                                        
+                                        </div>
+                                </div>
+                         <p> By creating an account you agree to our  <a href="term.html">Term privacy</a></p>
+     
+        
+                </form> 
+                      <footer>
+          
+           
+            	
+            <a href="#"><img src="mypixx\download (1).png" style="width: 20px;height:20px"><i class="fa fa-facebook"></i></a> Facebook &nbsp &nbsp
+            <a href="#"><img src="mypixx\download (8).jpeg" style="width: 20px;height:20px"><i class="fa fa-twitter"></i></a> Instagram &nbsp &nbsp
+            <a href="#"><img src="mypixx\download (2).png" style="width: 20px;height:20px"><i class="fa fa-skype"></i></a>Twitter &nbsp &nbsp
+            <a href="#"><img src="mypixx\download.png" style="width: 20px;height:20px"><i class="fa fa-skype"></i></a>Skype &nbsp &nbsp <br>    
+                               
+                                         
+                        
+                Copyright © SIMMY.COM
+        </footer>
+    </body>

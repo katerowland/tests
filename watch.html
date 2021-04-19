@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet"href="simmy.css">
+        <title>simmy.ng</title>
+      <h1 style="font-size: 45px;" id="back"><header>SIMMY.COM</header></h1>
+
+
+    </head>
+    <body>
+            <li class="menu">
+                    <li class="text-decoration">
+                
+                            <a href="home.html">HOME	|</a>
+                            <a href="about.html">ABOUT US	|</a>
+                            <a href="contact.html">CONTACT US	|</a>
+                            
+                        
+                </li>
+                <nav id="li2">
+                     <div class="row">
+
+					<div class="col-3 menu">             
+                <ul style="list-style-type:square">
+                        <li> <a href="cloth.html">Clothing</a></li>
+                        <li> <a href="sho.html">Shoes</a></li>
+                        <li> <a href="watch.html">Watches</a></li>
+                        <li> <a href="fash.html">Women Fashion</a></li>
+                       
+				</ul>
+				</div>       
+                </nav>
+                <img src="watch\watc.png" style="width:500px;height:50px;">
+                <section>
+                    <div>
+ 
+                        <img class="mySlides" src="watch\mh-mk3803_1.jpg" style="width:500px;height:400px;">
+                        <img class="mySlides" src="watch\imag0131-edit_1.jpg" style="width:500px;height:400px;">
+                        <img class="mySlides" src="watch\imag0125-edit.jpg" style="width:500px;height:400px;">
+                        
+                      
+                        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                      </div>
+                      
+                      <script>
+                      var slideIndex = 1;
+                      showDivs(slideIndex);
+                      
+                      function plusDivs(n) {
+                        showDivs(slideIndex += n);
+                      }
+                      
+                      function showDivs(n) {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        if (n > x.length) {slideIndex = 1}
+                        if (n < 1) {slideIndex = x.length}
+                        for (i = 0; i < x.length; i++) {
+                          x[i].style.display = "none";  
+                        }
+                        x[slideIndex-1].style.display = "block";  
+                      }
+                      </script>
+                      <noscript>
+                        <h2>
+                          Sorry this page requires Javascript
+                        </h2>
+                      </noscript>
+                                    
+                  
+                </section>
+              
+                <h2>..</h2>
+                
+                <table>
+                        <tr>
+                            <td> <img src="watch\81butekbdtl._uy550_.jpg" style="width:400px;height:300px;"></td>
+                            <td> <img src="watch\imag0131-edit_1.jpg" style="width:400px;height:300px;"> </td>
+                            <td> <img src="watch\dz4317.jpg" style="width:400px;height:300px;"> </td>	
+                            
+                            
+                            
+                        </tr>
+                    
+                    
+                        <tr>
+                            <td><b><br>Casio Baby -G watch<br> BA-110GA-1A Watch<br> <h2># 19,999</h2></b>  </td>
+                            <td><b>Diesel MS9 DZ4472 Brown<br>Brown Leather Men's Watch<br><h2> # 29,000</h2></b>  </td>
+                            <td><b>Diesel Chrono Brown<br>Brown Leather Men's Watch<br><h2> # 29,000</h2></b>  </td>
+                           
+                        </tr>
+                    </table> 
+                
+                        
+                
+                <footer>
+                        Contact us with the following platform	
+                                           Whatsapp	|08143427420
+                                           Twitter	|//simmysmart_twitter.com<br>
+                                            
+                                    
+                            Copyright © SIMDOC.com
+                    </footer>
+    </body>
+</html>
